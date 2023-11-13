@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".Page3"
     android:background="@color/white">
 
     <Button
@@ -20,7 +21,7 @@
         android:layout_width="12dp"
         android:layout_height="12dp"
         android:layout_marginEnd="10dp"
-        android:background="@drawable/elipse"
+        android:background="@drawable/elipse2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/view"
         app:layout_constraintTop_toTopOf="parent" />
@@ -30,7 +31,7 @@
         android:layout_width="12dp"
         android:layout_height="12dp"
         android:layout_marginStart="10dp"
-        android:background="@drawable/elipse2"
+        android:background="@drawable/elipse"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/view"
         app:layout_constraintTop_toTopOf="parent" />
@@ -58,7 +59,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/lato"
-        android:text="Анализы"
+        android:text="Уведомления"
         android:textColor="#00B712"
         android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/view"
@@ -70,7 +71,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/sf_regular"
-        android:text="Экспресс сбор и получение проб"
+        android:text="Вы быстро узнаете о результатах"
         android:textColor="#939396"
         android:textSize="17dp"
         app:layout_constraintBottom_toTopOf="@+id/view"
@@ -86,4 +87,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
